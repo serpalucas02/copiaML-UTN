@@ -1,0 +1,183 @@
+body{
+    background-color: #ebebeb;
+}
+
+.navbar-bg{
+    background-color: #fff159;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+}
+
+.navbar{
+    height: 100px;
+}
+
+.dropdown-bg{
+    background-color: #333;
+    padding: 22px 0;
+}
+
+.dropdown-bg a:hover{
+    background-color: #3483fa;
+}
+
+#dropdown-font-color a{
+    color: white;
+    font-size: 13px;
+}
+
+.busqueda input{
+    padding: 7px 60px 9px 15px;
+    font-family: inherit;
+    font-size: 16px;
+    width: 100%;
+    border: white;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    border-radius: 2px;
+    height: 39px;
+    margin: -1px 0 0 -2px;
+}
+
+.input-group input:focus{
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+}
+
+.input-group button:focus{
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+}
+
+.nav-link{
+    padding: 24px 0 0 0;
+}
+
+.btn-lupa{
+    width: 46px;
+    height: 39px;
+    border: white;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    border-radius: 0 2px 2px 0;;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1px 0 0 0;
+}
+
+.btn-lupa:hover{
+    background-color: white;
+    color: black;
+}
+
+.disney-img{
+    width: 340px;
+    height: 39px;
+}
+
+.column-disney{
+    padding: 0 0 0 50px;
+}
+
+.carousel-item{
+    width: 1600px;
+    height: 340px;
+}
+
+.column-carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    margin: 0px;
+    width: fit-content;
+}
+
+.carousel-control-prev{
+    margin: 0px;
+    width: fit-content;
+}
+
+.carousel-control-next{
+    margin: 0px;
+    width: fit-content;
+}
+
+.tarjeta{
+    width: 224px;
+    height: 224px;
+}
+
+.precio{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card a:link, a:visited, a:active{
+    text-decoration: none;
+    color: #333;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px 8px;
+    border: none;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.head-section{
+    margin: 40px 0 10px 370px;
+    color: #666666;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-body{
+    padding: 0 16px 16px 16px;
+}
+
+hr{
+    margin: 0 0 10px 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #33333399;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 350px;
+}
+
+#row1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logoml{
+    margin: 2px 0 0 12px;
+}
+
+.column-inicio-sesion{
+    display: flex;
+    justify-content: flex-end;
+}

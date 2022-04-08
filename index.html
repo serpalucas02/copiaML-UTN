@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/favicon.svg">
+    <title>Mercado Libre Argentina</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light navbar-bg">  
+        <div id="row">
+          <div class="col-md-2">
+            <a class="navbar-brand" href="#"><img src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png" class="logoml"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="col-md-6 busqueda">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Buscar productos, marcas y más..." aria-label="Buscar productos, marcas y más..." aria-describedby="button-addon2">
+              <button class="btn btn-lupa" type="button" id="button-addon2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle cat-nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categorías
+                  </a>
+                  <ul id="dropdown-font-color" class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Tecnología</a></li>
+                    <li><a class="dropdown-item" href="#">Electrodomésticos</a></li>
+                    <li><a class="dropdown-item" href="#">Hogar y Muebles</a></li>
+                    <li><a class="dropdown-item" href="#">Ver más categorías</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ofertas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Historial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Supermercado</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Moda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Vender</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ayuda</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="column-disney">
+              <img class="disney-img" src="https://http2.mlstatic.com/D_NQ_877425-MLA47306668299_082021-OO.webp">
+            </div>
+
+            <div class="collapse navbar-collapse column-inicio-sesion" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Creá tu cuenta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Ingresá</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mis compras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <div id="row1">
+        <div class="col-md-12 column-carousel">
+          <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#"><img src="https://http2.mlstatic.com/D_NQ_759888-MLA49403621814_032022-OO.webp" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="https://http2.mlstatic.com/D_NQ_819148-MLA49545826268_042022-OO.webp" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="https://http2.mlstatic.com/D_NQ_611067-MLA49403538678_032022-OO.webp" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="https://http2.mlstatic.com/D_NQ_963876-MLA49436672902_032022-OO.webp" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="https://http2.mlstatic.com/D_NQ_645356-MLA49448948857_032022-OO.webp" class="d-block w-100" alt="..."></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="row1">
+        <div class="col-md-12">
+          <div class="head-section">
+            <h2>Basado en tu última visita</h2>
+          </div>
+          
+          <div class="cards">
+            <div class="card card-1" style="width: 224px;">
+              <a href="#">
+                <img src="https://http2.mlstatic.com/D_Q_NP_612237-MLA49213591317_022022-AB.webp" class="card-img-top tarjeta" alt="Notebook">
+                <hr>
+                <div class="card-body">
+                  <p class="card-title precio">$ 71.999</p>
+                  <p class="card-text">Notebook Asus Intel I3 1005g1 256gb Ssd 8gb 15.6 Windows 11</p>
+                </div>
+              </a>
+            </div>
+            <div class="card" style="width: 224px;">
+              <a href="#"> 
+                <img src="https://http2.mlstatic.com/D_Q_NP_750880-MLA43970540786_112020-AB.webp" class="card-img-top tarjeta" alt="TV">
+                <hr>
+                <div class="card-body">
+                  <p class="card-title precio">$ 30.999</p>
+                  <p class="card-text">Smart TV Noblex 91DM32X7000PI LED HD 32"</p>
+                </div>
+              </a>
+            </div>
+            <div class="card" style="width: 224px;">
+              <a href="#">
+                <img src="https://http2.mlstatic.com/D_Q_NP_986182-MLA49472314801_032022-AB.webp" class="card-img-top tarjeta" alt="Cama">
+                <hr>
+                <div class="card-body">
+                  <p class="card-title precio">$ 104.809</p>
+                  <p class="card-text">Sommier La Cardeuse Native 400 King de 200cmx200cm gris</p>
+                </div>
+              </a>
+            </div>
+            <div class="card" style="width: 224px;">
+              <a href="#">
+                <img src="https://http2.mlstatic.com/D_Q_NP_644886-MLA47932862545_102021-AB.webp" class="card-img-top tarjeta" alt="Kit Lavado">
+                <hr>
+                <div class="card-body">
+                  <p class="card-title precio">$ 10.599</p>
+                  <p class="card-text">Hidrolavadora Alta Presión Kroner 1400w 105/b Autostop + Acc</p>
+                </div>
+              </a>
+            </div>
+            <div class="card" style="width: 224px;">
+              <a href="#">
+                <img src="https://http2.mlstatic.com/D_Q_NP_654145-MLA45256782368_032021-AB.webp" class="card-img-top tarjeta" alt="AuricularesBT">
+                <hr>
+                <div class="card-body">
+                  <p class="card-title precio">$ 2.999</p>
+                  <p class="card-text">Auriculares Xiaomi Mi Earbuds Basic 2 Bhr4272gl Bluetooth</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
