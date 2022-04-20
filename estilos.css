@@ -181,3 +181,44 @@ hr{
     display: flex;
     justify-content: flex-end;
 }
+
+.navbar{
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar-ingresa{
+    height: 240px;
+}
+
+.form-inicio-sesion{
+    border: white;
+    background-color: white;
+    box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 15%);
+    border-radius: 6px;
+    padding: 2rem 4rem;
+    
+}
+.form-inicio-sesion input{
+    width: 296px;
+    height: 48px;
+    border-radius: 0.375em;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+.form-inicio-sesion input:focus{
+    box-shadow: 0 0 0 1px #3483fa;;
+
+}
+
+.form-inicio-sesion .btn{
+    width: 296px;
+    height: 48px;
+    border-radius: 0.375em;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+.row-1{
+    display: flex;
+    justify-content: center;
+}
